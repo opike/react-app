@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 // Domain: http://parsimonious-religion.surge.sh
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React 2
+          Learn React 23
         </a>
       </header>
     </div>
