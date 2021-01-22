@@ -1,0 +1,4 @@
+* @opike
+*.js @opike
+*.yml @opike
+/public/ @opike
