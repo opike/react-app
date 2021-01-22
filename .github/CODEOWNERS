@@ -1,4 +1,4 @@
 * @opike
 *.js @opike
-*.yml @opike
+*.yml @opiketest
 /public/ @opike
