@@ -19,7 +19,6 @@ jobs:
             ${{ runner.os }}-node-
       - name: Use NodeJS
         uses: actions/setup-node@v1
-
         with:
           node-version: "12.x"
       - run: npm ci
@@ -40,8 +39,8 @@ jobs:
         with:
           name: build
           path: build
-#      - uses: actions/download-artifact
-#        -
+        #      - uses: actions/download-artifact
+        #        -
       - name: Deploy to Staging
         if: github.event_name == 'push'
         run: npx surge --project ./build --domain parsimonious-religion.surge.sh
