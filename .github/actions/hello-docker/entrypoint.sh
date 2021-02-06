@@ -17,4 +17,8 @@ echo '::endgroup::'
 
 echo '::set-env name name=HELLO:hello'
 
+# To fail with an error
+# echo 'error'
+# exit 1
+
 
